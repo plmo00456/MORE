@@ -1,0 +1,31 @@
+$w:300px;
+$h:500px;
+
+@mixin asd($radius) {
+	background-color:black;
+	width:50%;
+	height:$radius;
+	margin: 0 auto; 
+}
+
+
+.parent{
+
+	$w: 1000px;
+  	$h: 500px;
+	background-color:red;
+	width:$w;
+	height:$h;
+	display:inline-block;
+
+	@at-root .child{
+		@include asd(100px);
+	}
+}
+
+
+@at-root .friend{
+	background-color: green;
+	width: $w;
+	height: $h;
+}

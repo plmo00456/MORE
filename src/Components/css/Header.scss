@@ -1,0 +1,18 @@
+.Header{
+    background-color: rgb(39, 39, 39);
+    display:flex;
+    color:#fff;
+    flex-wrap: nowrap;
+    justify-items: center;
+    & .main-menu, .main-menu .sub-menu{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    & a{
+        color: #fff;
+    }
+    & img{
+        width: 13vh;
+        height: 80%;
+    }
+}
