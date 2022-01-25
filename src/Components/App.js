@@ -11,6 +11,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
 
+import Main from "./menu/main/main";
 import Movie from "./menu/movie/movie";
 
 function App() {
@@ -85,7 +86,7 @@ function App() {
               <h1>MORE</h1>
               <h2>All Reviews.</h2>
             </div>
-            <video loop muted autoPlay>
+            <video loop muted autoPlay playsInline>
               <source src={videoSrc}></source>
             </video>
           </div>
@@ -103,10 +104,6 @@ function App() {
 }
 
 export default App;
-
-function Main() {
-  return <div></div>;
-}
 
 function Users() {
   return (
