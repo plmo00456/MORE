@@ -48,22 +48,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @media (min-width: 768px) {
-      & {
-        width: 750px;
-      }
+    //border: 1px solid #000;
+    padding-top: 20px;
+    width: 1300px;
+    @media all and (min-width: 768px) and (max-width: 1023px) {
+      //border: 1px solid green;
+      width: 768px;
     }
-
-    @media (min-width: 992px) {
-      & {
-        width: 970px;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      & {
-        width: 1400px;
-      }
+    @media all and (max-width: 767px) {
+      width: 100%;
+      //border: 1px solid red;
+      overflow-y: hidden;
     }
   }
 }
