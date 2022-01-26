@@ -143,6 +143,9 @@
             border-radius: 20px;
           }
 
+          & > .info {
+            display: none;
+          }
           &:hover > .info {
             position: absolute;
             width: 100%;

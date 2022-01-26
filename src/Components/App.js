@@ -5,7 +5,6 @@ import "./css/Main.scss";
 import React, { useState, useEffect } from "react";
 
 import videoSrc from "./video/out.mp4";
-import customAxios from "./customAxios";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,7 +13,7 @@ import "./App.css";
 import Main from "./menu/main/main";
 import Movie from "./menu/movie/movie";
 
-function App() {
+const App = () => {
   useEffect(() => {
     const meta = document.createElement("meta");
     meta.name = "viewport";
@@ -99,6 +98,7 @@ function App() {
           <div className="Container">
             <Routes>
               <Route path="/" element={<Main />} />
+              <Route path="/MORE" element={<Main />} />
               <Route path="movie" element={<Movie />} />
               <Route path="users" element={<Users />} />
             </Routes>
@@ -107,7 +107,7 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
 
