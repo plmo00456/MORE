@@ -1,6 +1,7 @@
 import "./Main.scss";
 import React, { useRef, useState, useEffect } from "react";
 import customAxios from "../../lib/customAxios";
+import Items from "./Components/Item";
 
 const LiteItems = (props) => {
   const scrollRef = useRef(null);
@@ -32,8 +33,8 @@ const LiteItems = (props) => {
     }
   };
   const callback = async (data) => {
-    if (props.mode === "drama") data.results[0].title = data.results[0].name;
-    setList(data.results[0]);
+    //if (props.mode === "drama") data.results[0].title = data.results[0].name;
+    setList(data.results);
   };
 
   useEffect(() => {
@@ -83,34 +84,13 @@ const LiteItems = (props) => {
           <span className="glider"></span>
         </div>
       </div>
-      <div
-        className="items"
-        onMouseDown={onDragStart}
-        onMouseMove={onThrottleDragMove}
-        onMouseUp={onDragEnd}
-        onMouseLeave={onDragEnd}
-        ref={scrollRef}
-      >
-        <div className="item">
-          <div className="wrap">
-            <img
-              src={
-                "https://www.themoviedb.org/t/p/w220_and_h330_face/" +
-                list.poster_path
-              }
-              alt="영화 포스터"
-            />
-          </div>
-          <div className="info">
-            <div className="title">
-              <span className="main-title">{list.title}</span>
-              <span className="sub-title">{list.original_title}</span>
-            </div>
-            <div className="outline"></div>
-            <div className="summary">{list.overview}</div>
-          </div>
-        </div>
-      </div>
+      <Items
+        itemInfo={list}
+        onDragStart={onDragStart}
+        onThrottleDragMove={onThrottleDragMove}
+        onDragEnd={onDragEnd}
+        scrollRef={scrollRef}
+      />
     </div>
   );
 };
