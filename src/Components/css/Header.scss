@@ -114,6 +114,12 @@ body {
         & .main-menu:last-child {
           padding-right: 0;
         }
+        @media all and (max-width: 767px) {
+          margin-left: 20px;
+          & .main-menu {
+            display: none;
+          }
+        }
       }
 
       & .right {

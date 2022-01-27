@@ -2,7 +2,7 @@ import logo from "./images/logo.png";
 import "reset-css";
 import "./css/Header.scss";
 import "./css/Main.scss";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 import videoSrc from "./video/out.mp4";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
