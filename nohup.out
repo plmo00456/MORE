@@ -1,0 +1,518 @@
+
+> my-app@0.1.0 start
+> export PORT=8080 && react-scripts start
+
+(node:115016) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:115016) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+src/Components/App.js
+  Line 8:5:    'Routes' is defined but never used  no-unused-vars
+  Line 9:5:    'Route' is defined but never used   no-unused-vars
+  Line 54:10:  'Main' is defined but never used    no-unused-vars
+  Line 78:10:  'Users' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by path static/ 1.74 MiB
+  asset static/js/bundle.js 1.64 MiB [emitted] (name: main) 1 related asset
+  asset static/media/main-logo.ccdf4f177269711b8e34.png 97.7 KiB [emitted] [immutable] [from: src/Components/images/main-logo.png] (auxiliary name: main)
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 544 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.46 MiB 134 modules
+modules by path ./src/ 25.3 KiB (javascript) 97.7 KiB (asset)
+  modules by path ./src/Components/ 18.1 KiB (javascript) 97.7 KiB (asset) 7 modules
+  modules by path ./src/*.js 3.14 KiB
+    ./src/index.js 1.77 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.37 KiB [built] [code generated]
+  modules by path ./src/*.css 4.1 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+
+WARNING in src/Components/App.js
+  Line 8:5:    'Routes' is defined but never used  no-unused-vars
+  Line 9:5:    'Route' is defined but never used   no-unused-vars
+  Line 54:10:  'Main' is defined but never used    no-unused-vars
+  Line 78:10:  'Users' is defined but never used   no-unused-vars
+
+webpack 5.67.0 compiled with 1 warning in 12938 ms
+/home/pwj/work/MORE/node_modules/react-dev-utils/ModuleScopePlugin.js:32
+          request.descriptionFileRoot.indexOf('/node_modules/') !== -1 ||
+                                      ^
+
+TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at /home/pwj/work/MORE/node_modules/react-dev-utils/ModuleScopePlugin.js:32:39
+    at Hook.eval [as callAsync] (eval at create (/home/pwj/work/MORE/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:52:1)
+    at Resolver.doResolve (/home/pwj/work/MORE/node_modules/enhanced-resolve/lib/Resolver.js:407:16)
+    at /home/pwj/work/MORE/node_modules/enhanced-resolve/lib/TryNextPlugin.js:32:14
+    at _next0 (eval at create (/home/pwj/work/MORE/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:113:1)
+    at eval (eval at create (/home/pwj/work/MORE/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:135:1)
+    at /home/pwj/work/MORE/node_modules/enhanced-resolve/lib/ConditionalPlugin.js:40:47
+    at Hook.eval [as callAsync] (eval at create (/home/pwj/work/MORE/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:127:1)
+    at Resolver.doResolve (/home/pwj/work/MORE/node_modules/enhanced-resolve/lib/Resolver.js:407:16)
+    at /home/pwj/work/MORE/node_modules/enhanced-resolve/lib/ConditionalPlugin.js:42:14
+
+> my-app@0.1.0 start
+> export PORT=8080 && react-scripts start
+
+(node:116129) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:116129) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by path static/ 3.25 MiB
+  assets by path static/js/*.js 2.56 MiB
+    asset static/js/bundle.js 2.55 MiB [emitted] (name: main) 1 related asset
+    asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+  assets by path static/media/ 712 KiB
+    asset static/media/out.41f5ff8fc342f7303630.mp4 701 KiB [emitted] [immutable] [from: src/Components/video/out.mp4] (auxiliary name: main)
+    asset static/media/logo.4d88b1b364e02fe3b216.png 11 KiB [emitted] [immutable] [from: src/Components/images/logo.png] (auxiliary name: main)
+asset index.html 1.68 KiB [emitted]
+asset asset-manifest.json 608 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 2.25 MiB 144 modules
+modules by path ./src/ 49.9 KiB (javascript) 712 KiB (asset)
+  modules by path ./src/Components/ 42.7 KiB (javascript) 712 KiB (asset)
+    javascript modules 42.6 KiB 11 modules
+    asset modules 84 bytes (javascript) 712 KiB (asset)
+      ./src/Components/images/logo.png 42 bytes (javascript) 11 KiB (asset) [built] [code generated]
+      ./src/Components/video/out.mp4 42 bytes (javascript) 701 KiB (asset) [built] [code generated]
+  modules by path ./src/*.js 3.14 KiB
+    ./src/index.js 1.77 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.37 KiB [built] [code generated]
+  modules by path ./src/*.css 4.1 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+webpack 5.67.0 compiled with 1 warning in 12715 ms
+Compiling...
+Compiled with warnings.
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 719 KiB [cached] 3 assets
+assets by status 2.55 MiB [emitted]
+  assets by chunk 2.55 MiB (name: main)
+    asset static/js/bundle.js 2.55 MiB [emitted] (name: main) 1 related asset
+    asset main.27f817219f167c6f989e.hot-update.js 357 bytes [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 761 bytes
+    asset asset-manifest.json 733 bytes [emitted]
+    asset main.27f817219f167c6f989e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.68 KiB [emitted]
+Entrypoint main 2.55 MiB (3.2 MiB) = static/js/bundle.js 2.55 MiB main.27f817219f167c6f989e.hot-update.js 357 bytes 4 auxiliary assets
+cached modules 2.3 MiB (javascript) 712 KiB (asset) [cached] 161 modules
+runtime modules 31.3 KiB 15 modules
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+webpack 5.67.0 compiled with 1 warning in 732 ms
+Terminated
+
+> my-app@0.1.0 start
+> export PORT=8080 && react-scripts start
+
+(node:117506) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:117506) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by path static/ 3.25 MiB
+  assets by path static/js/*.js 2.56 MiB
+    asset static/js/bundle.js 2.55 MiB [emitted] (name: main) 1 related asset
+    asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+  assets by path static/media/ 712 KiB
+    asset static/media/out.41f5ff8fc342f7303630.mp4 701 KiB [emitted] [immutable] [from: src/Components/video/out.mp4] (auxiliary name: main)
+    asset static/media/logo.4d88b1b364e02fe3b216.png 11 KiB [emitted] [immutable] [from: src/Components/images/logo.png] (auxiliary name: main)
+asset index.html 1.71 KiB [emitted]
+asset asset-manifest.json 643 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 2.25 MiB 144 modules
+modules by path ./src/ 49.9 KiB (javascript) 712 KiB (asset)
+  modules by path ./src/Components/ 42.7 KiB (javascript) 712 KiB (asset)
+    javascript modules 42.6 KiB 11 modules
+    asset modules 84 bytes (javascript) 712 KiB (asset)
+      ./src/Components/images/logo.png 42 bytes (javascript) 11 KiB (asset) [built] [code generated]
+      ./src/Components/video/out.mp4 42 bytes (javascript) 701 KiB (asset) [built] [code generated]
+  modules by path ./src/*.js 3.14 KiB
+    ./src/index.js 1.77 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.37 KiB [built] [code generated]
+  modules by path ./src/*.css 4.1 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+webpack 5.67.0 compiled with 1 warning in 7888 ms
+ForbiddenError: Forbidden
+    at /home/pwj/work/MORE/node_modules/serve-index/index.js:125:19
+    at middleware (/home/pwj/work/MORE/node_modules/webpack-dev-server/lib/Server.js:2357:18)
+    at Layer.handle [as handle_request] (/home/pwj/work/MORE/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pwj/work/MORE/node_modules/express/lib/router/index.js:323:13)
+    at /home/pwj/work/MORE/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/pwj/work/MORE/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/pwj/work/MORE/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/pwj/work/MORE/node_modules/serve-static/index.js:121:7)
+    at SendStream.emit (node:events:390:28)
+    at SendStream.error (/home/pwj/work/MORE/node_modules/send/index.js:270:17)
+Terminated
+
+> my-app@0.1.0 start
+> export PORT=8080 && react-scripts start
+
+(node:121817) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:121817) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+Warning
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 1:8:    'styles' is defined but never used                                                                         no-unused-vars
+  Line 27:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 30:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 33:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 36:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 39:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 42:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 45:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 48:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by path static/ 3.29 MiB
+  assets by path static/js/*.js 2.59 MiB
+    asset static/js/bundle.js 2.59 MiB [emitted] (name: main) 1 related asset
+    asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+  assets by path static/media/ 712 KiB
+    asset static/media/out.41f5ff8fc342f7303630.mp4 701 KiB [emitted] [immutable] [from: src/Components/video/out.mp4] (auxiliary name: main)
+    asset static/media/logo.4d88b1b364e02fe3b216.png 11 KiB [emitted] [immutable] [from: src/Components/images/logo.png] (auxiliary name: main)
+asset index.html 1.71 KiB [emitted]
+asset asset-manifest.json 643 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 2.25 MiB 144 modules
+modules by path ./src/ 72 KiB (javascript) 712 KiB (asset)
+  modules by path ./src/Components/ 64.8 KiB (javascript) 712 KiB (asset)
+    javascript modules 64.7 KiB 14 modules
+    asset modules 84 bytes (javascript) 712 KiB (asset)
+      ./src/Components/images/logo.png 42 bytes (javascript) 11 KiB (asset) [built] [code generated]
+      ./src/Components/video/out.mp4 42 bytes (javascript) 701 KiB (asset) [built] [code generated]
+  modules by path ./src/*.js 3.14 KiB
+    ./src/index.js 1.77 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.37 KiB [built] [code generated]
+  modules by path ./src/*.css 4.1 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+
+WARNING in ./src/Components/css/Main.scss (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss)
+Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+Warning
+
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+ @ ./src/Components/css/Main.scss 8:6-398 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-368 83:0-368 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/Components/App.js 9:0-25
+ @ ./src/index.js 7:0-35 11:33-36
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 1:8:    'styles' is defined but never used                                                                         no-unused-vars
+  Line 27:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 30:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 33:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 36:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 39:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 42:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 45:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 48:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack 5.67.0 compiled with 2 warnings in 13671 ms
+Compiling...
+Compiled with warnings.
+
+Warning
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 1:8:    'styles' is defined but never used                                                                         no-unused-vars
+  Line 2:35:   'useEffect' is defined but never used                                                                      no-unused-vars
+  Line 9:9:    'onDragStart' is assigned a value but never used                                                           no-unused-vars
+  Line 16:9:   'onDragEnd' is assigned a value but never used                                                             no-unused-vars
+  Line 21:9:   'onDragMove' is assigned a value but never used                                                            no-unused-vars
+  Line 60:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 81:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 87:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 90:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 93:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 96:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 99:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 719 KiB [cached] 3 assets
+assets by status 2.63 MiB [emitted]
+  assets by chunk 2.63 MiB (name: main)
+    asset static/js/bundle.js 2.59 MiB [emitted] (name: main) 1 related asset
+    asset main.9a0be2573902344a45ee.hot-update.js 37 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 801 bytes
+    asset asset-manifest.json 773 bytes [emitted]
+    asset main.9a0be2573902344a45ee.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.71 KiB [emitted]
+Entrypoint main 2.63 MiB (3.25 MiB) = static/js/bundle.js 2.59 MiB main.9a0be2573902344a45ee.hot-update.js 37 KiB 4 auxiliary assets
+cached modules 2.3 MiB (javascript) 712 KiB (asset) [cached] 161 modules
+runtime modules 31.3 KiB 15 modules
+javascript modules 28.5 KiB
+  ./src/Components/menu/main/main.js 11.9 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss 3.71 KiB [built] [code generated] [1 warning]
+  ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/menu/main/Main.scss 12.9 KiB [built] [code generated]
+
+WARNING in ./src/Components/css/Main.scss (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss)
+Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+Warning
+
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+ @ ./src/Components/css/Main.scss 8:6-398 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-368 83:0-368 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/Components/App.js 9:0-25
+ @ ./src/index.js 7:0-35 11:33-36
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 1:8:    'styles' is defined but never used                                                                         no-unused-vars
+  Line 2:35:   'useEffect' is defined but never used                                                                      no-unused-vars
+  Line 9:9:    'onDragStart' is assigned a value but never used                                                           no-unused-vars
+  Line 16:9:   'onDragEnd' is assigned a value but never used                                                             no-unused-vars
+  Line 21:9:   'onDragMove' is assigned a value but never used                                                            no-unused-vars
+  Line 60:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 81:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 87:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 90:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 93:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 96:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 99:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack 5.67.0 compiled with 2 warnings in 1793 ms
+Compiling...
+Compiled with warnings.
+
+Warning
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 1:8:    'styles' is defined but never used                                                                         no-unused-vars
+  Line 2:35:   'useEffect' is defined but never used                                                                      no-unused-vars
+  Line 9:9:    'onDragStart' is assigned a value but never used                                                           no-unused-vars
+  Line 16:9:   'onDragEnd' is assigned a value but never used                                                             no-unused-vars
+  Line 21:9:   'onDragMove' is assigned a value but never used                                                            no-unused-vars
+  Line 60:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 81:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 87:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 90:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 93:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 96:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 99:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 719 KiB [cached] 3 assets
+assets by status 2.61 MiB [emitted]
+  assets by chunk 2.61 MiB (name: main)
+    asset static/js/bundle.js 2.59 MiB [emitted] (name: main) 1 related asset
+    asset main.d17c2ac779d54211b763.hot-update.js 15.6 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 801 bytes
+    asset asset-manifest.json 773 bytes [emitted]
+    asset main.d17c2ac779d54211b763.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.71 KiB [emitted]
+Entrypoint main 2.61 MiB (3.24 MiB) = static/js/bundle.js 2.59 MiB main.d17c2ac779d54211b763.hot-update.js 15.6 KiB 4 auxiliary assets
+cached modules 2.32 MiB (javascript) 712 KiB (asset) [cached] 163 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/menu/main/Main.scss 12.7 KiB [built] [code generated]
+
+WARNING in ./src/Components/css/Main.scss (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss)
+Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+Warning
+
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+ @ ./src/Components/css/Main.scss 8:6-398 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-368 83:0-368 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/Components/App.js 9:0-25
+ @ ./src/index.js 7:0-35 11:33-36
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used     no-unused-vars
+  Line 8:8:   'customAxios' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 1:8:    'styles' is defined but never used                                                                         no-unused-vars
+  Line 2:35:   'useEffect' is defined but never used                                                                      no-unused-vars
+  Line 9:9:    'onDragStart' is assigned a value but never used                                                           no-unused-vars
+  Line 16:9:   'onDragEnd' is assigned a value but never used                                                             no-unused-vars
+  Line 21:9:   'onDragMove' is assigned a value but never used                                                            no-unused-vars
+  Line 60:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 81:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 84:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 87:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 90:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 93:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 96:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 99:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+webpack 5.67.0 compiled with 2 warnings in 728 ms
+
+> my-app@0.1.0 start
+> export PORT=8080 && react-scripts start
+
+(node:124274) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:124274) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+Warning
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by path static/ 3.29 MiB
+  assets by path static/js/*.js 2.6 MiB
+    asset static/js/bundle.js 2.59 MiB [emitted] (name: main) 1 related asset
+    asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+  assets by path static/media/ 712 KiB
+    asset static/media/out.41f5ff8fc342f7303630.mp4 701 KiB [emitted] [immutable] [from: src/Components/video/out.mp4] (auxiliary name: main)
+    asset static/media/logo.4d88b1b364e02fe3b216.png 11 KiB [emitted] [immutable] [from: src/Components/images/logo.png] (auxiliary name: main)
+asset index.html 1.71 KiB [emitted]
+asset asset-manifest.json 643 bytes [emitted]
+cached modules 2.33 MiB (javascript) 712 KiB (asset) [cached] 163 modules
+runtime modules 31.3 KiB 15 modules
+./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss 3.71 KiB [built] [1 warning]
+
+WARNING in ./src/Components/css/Main.scss (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss)
+Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+Warning
+
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+ @ ./src/Components/css/Main.scss 8:6-398 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-368 83:0-368 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/Components/App.js 9:0-25
+ @ ./src/index.js 7:0-35 11:33-36
+
+webpack 5.67.0 compiled with 1 warning in 4792 ms
+Compiling...
+Compiled with warnings.
+
+Warning
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+
+src/Components/App.js
+  Line 5:17:  'useState' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 9:16:   'setMode' is assigned a value but never used                                                                                                                                                                                                           no-unused-vars
+  Line 16:10:  'url' is assigned a value but never used                                                                                                                                                                                                               no-unused-vars
+  Line 16:15:  'setUrl' is assigned a value but never used                                                                                                                                                                                                            no-unused-vars
+  Line 48:6:   React Hook useEffect has missing dependencies: 'callback' and 'props.mode'. Either include them or remove the dependency array. Outer scope values like 'customAxios' aren't valid dependencies because mutating them doesn't re-render the component  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+assets by status 719 KiB [cached] 3 assets
+assets by status 2.65 MiB [emitted]
+  assets by chunk 2.64 MiB (name: main)
+    asset static/js/bundle.js 2.59 MiB [emitted] (name: main) 1 related asset
+    asset main.35723ac90162b7db5b15.hot-update.js 56.4 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  assets by path *.json 834 bytes
+    asset asset-manifest.json 773 bytes [emitted]
+    asset main.35723ac90162b7db5b15.hot-update.json 61 bytes [emitted] [immutable] [hmr]
+  asset index.html 1.71 KiB [emitted]
+Entrypoint main 2.64 MiB (3.25 MiB) = static/js/bundle.js 2.59 MiB main.35723ac90162b7db5b15.hot-update.js 56.4 KiB 4 auxiliary assets
+cached modules 2.29 MiB (javascript) 712 KiB (asset) [cached] 159 modules
+runtime modules 31.3 KiB 15 modules
+javascript modules 40.6 KiB
+  modules by path ./src/Components/menu/main/ 21.3 KiB
+    ./src/Components/menu/main/main.js 8.41 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/menu/main/Main.scss 12.9 KiB [built] [code generated]
+  ./src/Components/App.js 14.4 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss 3.71 KiB [built] [code generated] [1 warning]
+  ./src/Components/lib/customAxios.js 1.25 KiB [built] [code generated]
+
+WARNING in ./src/Components/css/Main.scss (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/Components/css/Main.scss)
+Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+Warning
+
+(8:3) autoprefixer: start value has mixed support, consider using flex-start instead
+ @ ./src/Components/css/Main.scss 8:6-398 22:17-24 26:7-21 58:25-39 59:36-47 59:50-64 63:6-73:7 64:54-65 64:68-82 70:42-53 70:56-70 72:21-28 83:0-368 83:0-368 84:22-29 84:33-47 84:50-64 61:4-74:5
+ @ ./src/Components/App.js 9:0-25
+ @ ./src/index.js 7:0-35 11:33-36
+
+WARNING in src/Components/App.js
+  Line 5:17:  'useState' is defined but never used  no-unused-vars
+
+src/Components/menu/main/main.js
+  Line 9:16:   'setMode' is assigned a value but never used                                                                                                                                                                                                           no-unused-vars
+  Line 16:10:  'url' is assigned a value but never used                                                                                                                                                                                                               no-unused-vars
+  Line 16:15:  'setUrl' is assigned a value but never used                                                                                                                                                                                                            no-unused-vars
+  Line 48:6:   React Hook useEffect has missing dependencies: 'callback' and 'props.mode'. Either include them or remove the dependency array. Outer scope values like 'customAxios' aren't valid dependencies because mutating them doesn't re-render the component  react-hooks/exhaustive-deps
+
+webpack 5.67.0 compiled with 2 warnings in 5408 ms
+Terminated
